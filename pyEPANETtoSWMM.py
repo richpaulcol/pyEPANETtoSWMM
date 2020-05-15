@@ -192,6 +192,8 @@ out_file.write(';;Name             Type       Multipliers\n')
 for pattern in Net.patterns:
     out_file.write('\t\t\t'.join(pattern.SWMM_writer())+'\n')
 out_file.write('\n')
+#TODO This isn't working properly yet.
+
 
 #### Options
 out_file.write('[OPTIONS]\n')
