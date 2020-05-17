@@ -552,6 +552,13 @@ Dummy                0          FREE                        NO
 5			4531			4521			4449			4439			4449			4460
 5			4439			4419			4368			4399			4470			4480
 
+[CONTROLS]
+Link          10 OPEN AT    TIME          1
+Link          10 CLOSED AT  TIME          15
+Link          335 OPEN IF   Node          1             BELOW          5.21208 
+Link          335 CLOSED IF Node          1             ABOVE          5.82168 
+Link          330 CLOSED IF Node          1             BELOW          5.21208 
+Link          330 OPEN IF   Node          1             ABOVE          5.82168 
 [OPTIONS]
 FLOW_ROUTING         DYNWAVE
 

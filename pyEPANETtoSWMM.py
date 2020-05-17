@@ -195,6 +195,12 @@ out_file.write('\n')
 #TODO This isn't working properly yet.
 
 
+#### Controls
+out_file.write('[CONTROLS]\n')
+for control in Net.controls:
+    out_file.write(str(control.rule))
+
+
 #### Options
 out_file.write('[OPTIONS]\n')
 out_file.write('FLOW_ROUTING         DYNWAVE\n')
