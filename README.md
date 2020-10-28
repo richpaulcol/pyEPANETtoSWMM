@@ -4,4 +4,4 @@ Python based .inp parser to convert EPANET inp files to EPASWMM inp files for in
 
 To run
 
-python inputfile.inp outputfile.inp
+python pyEPANETtoSWMM.py inputfile.inp outputfile.inp
